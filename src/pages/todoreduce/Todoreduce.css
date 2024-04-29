@@ -1,0 +1,44 @@
+.reducer_box{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.reducer_input{
+    padding: 15px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+.reducer_item_box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.reducer_item_box li{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+.reducer_item_box li button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    padding: 4px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.reducer_btn_box{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reducer_btn{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer; 
+}
